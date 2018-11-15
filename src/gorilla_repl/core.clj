@@ -8,7 +8,6 @@
             [org.httpkit.server :as server]
             [gorilla-repl.nrepl :as nrepl]
             [gorilla-repl.websocket-relay :as ws-relay]
-            [gorilla-repl.renderer :as renderer] ;; this is needed to bring the render implementations into scope
             [gorilla-repl.version :as version]
             [gorilla-repl.handle :as handle]
             [clojure.set :as set]

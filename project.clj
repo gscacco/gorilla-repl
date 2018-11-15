@@ -2,7 +2,7 @@
 ;;;;
 ;;;; gorilla-repl is licenced to you under the MIT licence. See the file LICENCE.txt for full details.
 
-(defproject org.clojars.gscacco/gorilla-repl "0.5.1"
+(defproject org.clojars.gscacco/gorilla-repl "0.5.2"
   :description "A rich REPL for Clojure in the notebook style."
   :url "https://github.com/gscacco/gorilla-repl.git"
   :license {:name "MIT"}
@@ -15,6 +15,8 @@
                            [ch.qos.logback/logback-classic "1.1.2"]
                            [org.clojars.gscacco/gorilla-renderable "0.5.0"]
                            [org.clojars.gscacco/gorilla-plot "0.5.0"]
+                           ;[gorilla-renderable "2.0.0"]
+                           ;[gorilla-plot "0.1.4"]
                            [javax.servlet/servlet-api "2.5"]
                            [grimradical/clj-semver "0.2.0" :exclusions [org.clojure/clojure]]
                            [cider/cider-nrepl "0.18.0"]

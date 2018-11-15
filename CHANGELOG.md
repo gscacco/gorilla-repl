@@ -1,5 +1,8 @@
 # Changelog
 
+## Version 0.5.2
+- Update to clojure 1.9.0
+
 ## Version 0.4.1
 - Switch from MathJax CDN to Cloudflare (thanks to @ribelo and @jsa-aerial)
 - Add line numbers to text editor
